@@ -7,5 +7,6 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.pack.tailwindcss" },
   -- import/override with your plugins folder
 }
