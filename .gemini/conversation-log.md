@@ -25,3 +25,11 @@
     - **Action:** Set `catppuccin` with the "mocha" flavor as the default theme.
     - **Action:** Changed the `catppuccin` flavor to "frappe" at the user's request.
     - **Result:** The user is now able to switch themes and has a new default theme set.
+
+4.  **Formatting and Indentation:**
+    - The user requested to disable automatic formatting on save and set the global indentation to 4 spaces.
+    - **Action:** Enabled and modified `lua/plugins/astrolsp.lua` to disable `format_on_save`.
+    - **Action:** Enabled and modified `lua/plugins/astrocore.lua` to set `tabstop` and `shiftwidth` to `4`.
+    - **Bug:** Introduced a syntax error in `lua/plugins/astrocore.lua` during the modification.
+    - **Fix:** Corrected the syntax error in `lua/plugins/astrocore.lua`.
+    - **Result:** Format-on-save is now disabled, and the indentation is set to 4 spaces.
