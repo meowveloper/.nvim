@@ -10,5 +10,6 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.docker" },
   -- import/override with your plugins folder
 }
