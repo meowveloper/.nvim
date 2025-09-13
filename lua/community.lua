@@ -8,5 +8,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.cpp" },
   -- import/override with your plugins folder
 }
