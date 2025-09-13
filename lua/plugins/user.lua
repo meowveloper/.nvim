@@ -1,5 +1,13 @@
 ---@type LazySpec
 return {
+  { "folke/tokyonight.nvim" },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    opts = {
+      flavour = "frappe",
+    },
+  },
   {
     "nvim-telescope/telescope.nvim",
     opts = {

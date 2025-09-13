@@ -17,3 +17,11 @@
         - Activated `lua/plugins/user.lua` by removing the line that disabled it.
         - Removed the unused `lua/user` directory.
     - **Result:** The user confirmed that they can now see the previously hidden files in the file tree.
+
+3.  **Theme Configuration:**
+    - The user asked how to change color themes.
+    - **Action:** Explained how to use the theme selector with `<Leader>ft`.
+    - **Action:** Installed the `tokyonight` and `catppuccin` themes.
+    - **Action:** Set `catppuccin` with the "mocha" flavor as the default theme.
+    - **Action:** Changed the `catppuccin` flavor to "frappe" at the user's request.
+    - **Result:** The user is now able to switch themes and has a new default theme set.
