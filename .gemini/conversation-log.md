@@ -33,3 +33,10 @@
     - **Bug:** Introduced a syntax error in `lua/plugins/astrocore.lua` during the modification.
     - **Fix:** Corrected the syntax error in `lua/plugins/astrocore.lua`.
     - **Result:** Format-on-save is now disabled, and the indentation is set to 4 spaces.
+
+5.  **Buffer Switching:**
+    - The user asked about the keybindings for switching between buffers.
+    - After some clarification, it was determined that the user wanted a way to open a Telescope list of all open buffers.
+    - **Action:** Added a new keymap `<Leader>bl` to `lua/plugins/astrocore.lua` that opens the Telescope buffer list.
+    - **Action:** Changed the next/previous buffer keymaps from `]b`/`[b` to `<C-l>`/`<C-h>`.
+    - **Result:** The user can now press `<Leader>bl` to get a pop-up list of all open buffers and use `<C-l>`/`<C-h>` to cycle through them.
