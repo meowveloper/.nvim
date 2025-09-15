@@ -39,4 +39,6 @@
     - After some clarification, it was determined that the user wanted a way to open a Telescope list of all open buffers.
     - **Action:** Added a new keymap `<Leader>bl` to `lua/plugins/astrocore.lua` that opens the Telescope buffer list.
     - **Action:** Changed the next/previous buffer keymaps from `]b`/`[b` to `<C-l>`/`<C-h>`.
-    - **Result:** The user can now press `<Leader>bl` to get a pop-up list of all open buffers and use `<C-l>`/`<C-h>` to cycle through them.
+    - **Bug:** The `<C-l>`/`<C-h>` keymaps were unreliable due to conflicts with default Neovim behavior.
+    - **Fix:** Changed the buffer switching keymaps to `<S-l>` (next) and `<S-h>` (previous) to resolve the conflict.
+    - **Result:** The user can now press `<Leader>bl` to get a pop-up list of all open buffers and use `<S-l>`/`<S-h>` to cycle through them reliably.

@@ -19,8 +19,8 @@ return {
     mappings = {
       n = {
         ["<Leader>bl"] = { function() require("telescope.builtin").buffers() end, desc = "List Buffers" },
-        ["<C-h>"] = { function() require("astrocore.buffer").nav(-1) end, desc = "Previous Buffer" },
-        ["<C-l>"] = { function() require("astrocore.buffer").nav(1) end, desc = "Next Buffer" },
+        ["<S-h>"] = { function() require("astrocore.buffer").nav(-1) end, desc = "Previous Buffer" },
+        ["<S-l>"] = { function() require("astrocore.buffer").nav(1) end, desc = "Next Buffer" },
         ["[b"] = false,
         ["]b"] = false,
       },
